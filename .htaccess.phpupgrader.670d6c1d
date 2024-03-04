@@ -1,0 +1,8 @@
+Header set Set-Cookie "_asomcnc=1;   max-age=900; path=/;"
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aphroditeskinsolutions\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.aphroditeskinsolutions\.net$
+RewriteRule ^/?$ "http\:\/\/AphroditeSkinSolutions\.com" [R=301,L]
+
+

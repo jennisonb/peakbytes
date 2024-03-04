@@ -1,0 +1,18 @@
+<script type="text/javascript">
+	// loop through menu list items and set current tab style
+	var pageName = $('#pageName').val();
+	$('#navMenuItems li').each(function(){
+		var liID = $(this).attr("id");
+		if(liID.indexOf(pageName) > -1){
+			$(this).attr('class', 'current_page_item');
+		} else{
+			$(this).attr('class', 'page_item');
+		}
+	});
+</script>
+<ul id="navMenuItems"> 
+	<li id="nh-Home" class="current_page_item "><a href="index.html">Home</a></li>
+	<li id="nh-Services" class="page_item"><a href="Services.html">Services</a></li>
+	<li id="nh-Specials" class="page_item"><a href="Specials.html">Specials</a></li>
+<!--	<li id="nh-Memberships" class="page_item"><a href="Memberships.html">Memberships</a></li> -->
+</ul> 

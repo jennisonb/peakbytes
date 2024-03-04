@@ -1,0 +1,367 @@
+/*	--------------------------------------------------
+Global Reset - Resets all browser defaults to 0
+-------------------------------------------------- */
+body { background:#e5e0ca url(1-default/bodybg.png) repeat; color:#555;}
+a { color:#000; }
+a:hover { color:#075e44; }
+
+hr { color:#fffdea; border:none; border-top:1px dotted #c5c2b9; }
+.hr2 { color:#fffdea; border:none;  }
+/* headings ---------------------- */
+h1,h2,h3,h4,h5,h6 { color:#000; }
+h1.head { color:#291a17; background:url(1-default/head_bg.png) no-repeat left bottom;  }
+h1.head a { color:#000; }
+h1.head a:hover { color:#333; }
+
+/* Structure ---------------------- */
+#header { background:url(1-default/headerbg.png) no-repeat center top; }
+#wrapper { background:url(1-default/main_centerbg.png) repeat-y center top; }
+.banner_in { background:url(1-default/banner_center.png) repeat-y left top; }
+.banner_in_top { background:url(1-default/banner_top.png) no-repeat left top; }
+.banner_in_bottom { background:url(1-default/banner_bottom.png) no-repeat left bottom; }
+
+.content_in { background:url(1-default/content_in_center.png) repeat-y left top; }
+.content_in_top { background:url(1-default/content_in_top.png) no-repeat left top; }
+.content_in_bottom { background:url(1-default/content_in_bottom.png) no-repeat left bottom; }
+
+
+#index_sidebar { background:url(1-default/index_sidebarbg.png) no-repeat right top; }
+#slider_banner { background:url(1-default/silder_bottombg.png) no-repeat center 495px;  }
+#sidebr_banner_in { background:#000 url(1-default/slider_imgbg_top.png) no-repeat left top; }
+
+
+#footer { background:url(1-default/footerbg.png) no-repeat 1px top;  }
+
+
+
+/* header ---------------------- */
+#header .blog-title a{ color:#075e44; }
+#header .blog-title a:hover{color:#333 }
+#header .blog-description{ color:#9e9f93; }
+
+.call_now { color:#6a5f63; text-shadow:1px 1px 1px #fff; }
+.call_now span { color:#6a5f63;  }
+
+.address { color:#6a5f63; text-shadow:1px 1px 1px #fff; }
+
+/* Banner ---------------------- */
+#slider { border:1px solid #a0bab2; }
+.nivo-controlNav a { background:url(1-default/slider_dot.png) no-repeat ; border:none; color:#fff; }
+.nivo-controlNav a:hover, .nivo-controlNav a.active { background:url(1-default/slider_dot2.png) no-repeat ; }
+.nivo-caption { background:#5e989d;  }
+
+/* upcommming events --------------- */
+.upcomming_event { background:url(1-default/event_center.png) repeat-y left top; } 
+.upcomming_event_top { background:url(1-default/event_top.png) no-repeat left top; }
+.upcomming_event_bottom { background:url(1-default/event_bottom.png) no-repeat left bottom; }
+
+
+#content .events_box h3 { background:url(../images/i_event.png) no-repeat left 5px; color:#000; }
+#content .events_box li { border-bottom:1px solid #fff; background:url(1-default/event_bullet.png) no-repeat 4px 8px; }
+#content .events_box li:hover { background:#dde6d7 url(1-default/event_bullet.png) no-repeat 4px 8px; }
+
+#content .testimonials h3 { background:url(../images/i_testimonials.png) no-repeat left 4px; }
+
+
+#sidebar .subscribe h3 { background:url(../images/i_mail.png) no-repeat left 6px; border:none; }
+.subscribe { background:url(1-default/subscribe_center.png) repeat-y left top;  }
+.subscribe_top  { background:url(1-default/subscribe_top.png) no-repeat left top;  }
+.subscribe_bottom  { background:url(1-default/subscribe_bottom.png) no-repeat left bottom;  }
+
+.subscribe .textfield { border:1px solid #d1d6cd; background:#fff; }
+.subscribe .bsubscribe { background:url(1-default/b_submit.png) no-repeat left top; }
+
+
+
+/* contact us -------*/
+#content .form_row .textfield { border:1px solid #9b978a; background:#fff; } 
+#content .form_row .textarea { border:1px solid #9b978a; background:#fff; } 
+#content .error, .message_error2 { color:#690c0a; }
+#contact_frm .b_submit  { border:1px solid #507d6f; background:#507d6f; color:#fff; }
+#content p.success_msg { color:#356c1d; background:#cee8c3; border-top:1px solid #7ea96b; border-bottom:1px solid #7ea96b; }
+
+
+
+
+/*#breadcrumb section  =================================== */
+.breadcrumb { color:#666 } 
+.breadcrumb a { color:#075e44;  }
+.breadcrumb a:hover { color:#333; }
+
+/* content ---------------------------- */
+#content li { background:url(1-default/i_bullet.gif) no-repeat left 8px; }
+#content ol li { background:none; }
+
+#content .gallerylist li img { border:2px solid #ccc; background:#fff;   }
+#content .img { border:2px solid #ccc; }
+
+#content .gallerylist li p a { color:#690c0a; }
+#content .gallerylist li p a:hover { color:#000; }
+
+#content h3 { color:#000; }
+#content h4.cate_title { color:#7a6f3b; }
+
+#content h3.bnone { border-bottom:none; }
+.featured_work { border-bottom:5px solid #e3e3e3; }
+.featured_work img {border:1px solid #babab2; }
+
+#content .services p strong { color:#000;  }
+#content p.more a { color:#333; }
+#content p.more a:hover { color:#000; }
+
+
+/* post ---------------------------- */
+
+code { background:#ccc; }
+
+blockquote { background:url(1-default/blockquote.png) no-repeat left 4px;    } 
+blockquote p { color:#333;  }
+blockquote cite { color:#666; }
+
+blockquote a { color:#333; }
+blockquote a:hover { color:#000; }
+
+.flickr h3 span{ color:#000 }
+.flickr h3 span b{ color:#FF1183 }
+.flickr img{ border:1px solid #969696; background:#F4F4F4; }
+.flickr img:hover{ border-color:#333 }
+
+
+#content .post_top h2 a { color:#5b4910; }
+#content .post_top h2 a:hover { color:#075e44; }
+.commentcount { background:url(../images/i_comment.png) no-repeat left 0px; }
+
+
+#content .headline { background:url(../images/i_post_s.png) no-repeat 5px 14px; border-bottom:1px solid #ccc; }
+#content .headline:hover { background:#eee url(../images/i_post_s.png) no-repeat 5px 14px; border-bottom:1px solid #ccc; cursor:pointer; }
+
+#content .headline h3 { border:none;  }
+#content .headline h3 a { color:#333;  }
+#content .headline h3 a:hover { color:#000;  }
+#content .headline .commentcount {  float:right; }
+#content .headline .commentcount a { color:#666; }
+#content .headline .commentcount a:hover { color:#000; }
+
+
+
+#content .post_top a { color:#777; }
+#content .post_top a:hover { color:#333;}
+
+#content .posts { border-bottom:1px dotted #ccc; }
+#content .posts h2.title a { color:#333; }
+#content .posts h2.title a:hover { color:#000; }
+
+#content .post_top p.postmetadata { color:#777; }
+
+#content p.post_bottom {color:#777; background:url(../images/i_category.png) no-repeat left 5px; }
+#content p.post_bottom a { color:#777; }
+#content p.post_bottom a:hover { color:#000; }
+
+/* Post Pagination */
+
+.pagination .on { background:#507d6f; color:#fff; }
+.pagination a { background:#d0c8b1; }
+.pagination a:hover { background:#947941; color:#fff; }
+
+
+/*#sidebar ----------------------- */
+#sidebar .widget { background:#f2f5f0 url(1-default/sidebar_in_bottom.png) no-repeat bottom left; }
+#sidebar .testimonials {  background:#f2f5f0 url(1-default/sidebar_in_bottom.png) no-repeat bottom left; }
+
+#sidebar .services { background:#d4dfcc url(1-default/services_bottom.png) no-repeat left bottom;  }
+#sidebar .services h3.h_services { background:#d4dfcc url(1-default/h_services.png) no-repeat left top; }
+#sidebar .services h3.h_hours { background:#d4dfcc url(1-default/h_hours.png) no-repeat left top; }
+#sidebar .services p { border-bottom:1px solid #e1e9db; }
+
+#sidebar.sidebar_in .services { background:#f2f5f0 url(1-default/sidebar_in_bottom.png) no-repeat bottom left; }
+
+#sidebar h3 { color:#615559; text-shadow:1px 1px 1px #fff; border-top:1px solid #fff; border-bottom:1px solid #fff; background:#d4dfcc url(1-default/sidebar_headbg.png) no-repeat left top ;  }
+
+#sidebar li { background:url(1-default/bullet.png) no-repeat left 5px; border-bottom:1px solid #e1e9db;  }
+#sidebar li a { color:#444; }
+#sidebar li a:hover { color:#075e44; }
+
+#sidebar p a { color:#075e44; text-decoration:underline; }
+#sidebar p a:hover { color:#333; }
+
+
+/* widget search bobx */
+#searchform { border:1px solid #ccc; }
+#searchform input { border:1px solid #ccc; background:#fff; }
+#searchform #searchsubmit { background:#8fb2a8; font:12px Arial, Helvetica, sans-serif; color:#fff; border:none;  }
+
+	  
+/*---------ARCHIVE PAGE --------- */
+.arclist ul li{ color:silver; border-bottom:1px solid #f1f1ed;  background:none }
+.arclist ul li ul{ border-bottom:0; }
+.arclist ul li ul li{ border-bottom:0;}
+.arclist .archives-time{ color: #666666; border-right: dashed 1px #ddd; }
+
+/*---------COMMENTS --------- */
+#comments h3{ border-bottom:1px dotted #9b978a; }
+
+#comments .comment {background:none; }
+#comments  p.authorcomment {  color:#5b0b0a; }
+#comments  p.authorcomment a {  color:#5b0b0a; }
+#comments  p.authorcomment a:hover { color:#333; }
+
+#comments  p.authorcomment span { color:#9b978a; }
+
+
+#comments .comment .meta-left { color:#aaaaaa }
+#comments .comment .text-right { border:none;  /*background:#e9e7e7 url(1-default/commentbg.png) no-repeat center left;*/ }
+#comments .comment .authcomment{ color:#594812; /*background:#d5d5d5 url(1-default/commentbg_author.png) no-repeat center left; border:none; */ }
+#comments .comment .authcomment p { color:#594812; }
+
+span.comm-reply{ color:#9b978a; }
+span.comm-reply a { color:#9b978a;  }
+span.comm-reply a:hover{ color:#075e44; }
+#respond textarea, .commpadd input{ background:none; border:1px solid #9b978a; font:14px Arial, Helvetica, sans-serif;   }
+input#submit{ color:#fff; background:#507D6F; border:1px solid #507D6F;  }
+.avatar { border:2px solid #bab6aa; }
+
+.indicates { color:#900; font-size:11px; }
+
+/* footer ---------------------------- */
+#footer h3 { color:#8c8981;  }
+#footer p { color:#807860; }
+
+#footer p a {  color:#807860; }
+#footer p a:hover {  color:#333; }
+
+#footer li { background:url(1-default/fbullet.png) no-repeat left 4px; }
+#footer li a { color:#7a7973; }
+#footer li a:hover { color:#333; }
+
+
+/*------------------------------------------------------
+ nav menu 
+--------------------------------------------------------*/
+#navmenu-h ul li ul { border-top:1px solid #5d7a71; }
+
+#navmenu-h ul { background:url(1-default/navbg.png) no-repeat left top;  }
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a
+{
+	border: 1px solid #5d7a71;
+	border-top:none;
+}
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a {
+}
+/* Top level */
+#navmenu-h ul li a, ul#navmenu-v li a,
+
+/* 2nd Menu */
+#navmenu-h ul li:hover li a, ul#navmenu-v li:hover li a,
+#navmenu-h ul li.iehover li a, ul#navmenu-v li.iehover li a,
+
+ /* 3rd Menu */
+#navmenu-h ul li:hover li:hover li a, ul#navmenu-v li:hover li:hover li a,
+#navmenu-h ul li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li a,
+
+/* 4rd Menu */
+#navmenu-h ul li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li a,
+#navmenu-h ul li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li a,
+
+/* 5th Menu */
+#navmenu-h ul li:hover li:hover li:hover li:hover li a, ul#navmenu-v li:hover li:hover li:hover li:hover li a,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a 
+{
+	background:url(1-default/nav_n.gif) repeat-x top left;
+	color: #fff;
+	text-shadow:1px 1px 1px #333;
+}
+#navmenu-h ul li.current_page_parent { color:#fff; background:url(1-default/nav-active_red.gif) top left no-repeat; }
+
+
+/* Root Menu Hover Persistence */
+#navmenu-h ul a:hover, 
+#navmenu-h ul li:hover a, 
+#navmenu-h ul li.iehover a,
+#navmenu-h ul li:hover a:hover,
+{ color:#333; background:url(1-default/nav-active_red.gif) top right no-repeat; }
+
+/* Remembers the parent page of the current page ------------------------------------- */
+
+#navmenu-h li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor li.current_page_item a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a,
+#navmenu-h li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor ul li.current_page_ancestor a:hover,
+
+
+/* IE Specific ------------------------------------- */
+
+/* 2nd Menu Hover Persistence */
+#navmenu-h ul li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
+#navmenu-h ul li:hover li:hover a, ul#navmenu-v li:hover li:hover a, 
+#navmenu-h ul li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
+
+/* 3rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
+
+/* 4rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
+
+/* 5th Menu Hover */
+#navmenu-h ul li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
+#navmenu-h ul li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover,
+
+
+#navmenu-h li:hover, #navmenu-h li.iehover,#navmenu-h li.current_page_item,  #navmenu-h li.iehover,#navmenu-h li.current_page_ancestor { background:url(1-default/nav-active_red.gif) top left no-repeat; color:#49695f;  }
+#navmenu-h li:hover a, #navmenu-h li.iehover a, #navmenu-h li.current_page_item a, #navmenu-h li.current_page_ancestor a, #navmenu-h li.current_page_ancestor a:hover, #navmenu-h li.current_page_parent a { color:#49695f; background:url(1-default/nav-active_red.gif) top right no-repeat; text-shadow:1px 1px 1px #fff;} 
+#navmenu-h li a { color:#fff; background:url(1-default/nav-active_red.gif) top right no-repeat; } 
+#navmenu-h li a:hover { color:#49695f; background:url(1-default/nav-active_red.gif) top right no-repeat; }
+
+
+#navmenu-h li ul li ul li.current_page_parent a,#navmenu-h li ul li.current_page_ancestor a { background-position:-5px 0 !important; } 
+#navmenu-h li ul li ul li.current_page_parent a:hover,#navmenu-h li ul li.current_page_ancestor a:hover {  background-position:-5px 0!important;  } 
+
+
+
+/* IE verticle Specific ------------------------------------- */
+
+/* 2nd Menu Hover Persistence */
+#navmenu-h ul li:hover li a:hover, ul#navmenu-v li:hover li a:hover,
+#navmenu-h ul li:hover li:hover a, ul#navmenu-v li:hover li:hover a, 
+#navmenu-h ul li.iehover li a:hover, ul#navmenu-v li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover a,
+
+/* 3rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover a,
+
+/* 4rd Menu Hover Persistence */
+#navmenu-h ul li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover a, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover a,
+
+/* 5th Menu Hover */
+#navmenu-h ul li:hover li:hover li:hover li:hover li:hover a, ul#navmenu-v li:hover li:hover li:hover li:hover li:hover a,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li.iehover a,  ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li.iehover a,
+#navmenu-h ul li:hover li:hover li:hover li:hover li a:hover, ul#navmenu-v li:hover li:hover li:hover li:hover li a:hover,
+#navmenu-h ul li.iehover li.iehover li.iehover li.iehover li a:hover, ul#navmenu-v li.iehover li.iehover li.iehover li.iehover li a:hover
+{ 
+background:#547d71 url(1-default/none.gif) no-repeat;
+color:#fff;
+}

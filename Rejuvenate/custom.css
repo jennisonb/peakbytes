@@ -1,0 +1,88 @@
+/*
+File:			custom.css
+Description:	Custom styles for Your Theme
+
+HOW TO USE THIS FILE:
+
+Override any class you want and it will change default styling to suit your needs.
+
+For example, if you wish to change the default text blog title to grey, you would add the 
+following declarations to this file:
+
+	#header .blog-title a{ background:#cccccc }     <--- This makes blog title background grey
+
+*/
+#tblDoDont
+{
+ border:solid 2px black;
+ margin-top:10px;
+}
+#tblDoDont td{
+ border:solid 1px black;
+ padding:3px;
+}
+#tblDoDont th{
+ border:solid 1px black;
+ padding:3px;
+ background-color:#c3c3c3;
+}
+
+.tcell_left{
+ font-weight:bolder;
+ width:200px;
+ text-align:left;
+ color:#000;
+ font-style:italic;
+ padding-bottom:10px;
+}
+
+.tcell_right{
+ font-weight:bolder;
+ width:100px;
+ text-align:left;
+ color:#000;
+ font-style:italic;
+ padding-bottom:10px;
+}
+
+
+.tcell_mid{
+ font-weight:bolder;
+ text-align:middle;
+ color:#000;
+ font-style:italic;
+ padding-bottom:10px;
+}
+
+#imgImage{
+  margin-bottom:50px; 
+  float:right; 
+  border:1px solid #ccc; 
+  padding:2px; 
+  background:#fff;
+}
+
+.hours{
+font-size:14px;
+font-weight:bolder;
+margin-bottom:1px;
+padding-bottom:0;
+}
+
+.uline{
+text-decoration:underline;
+}
+
+#tblRifeSpec {
+    margin: auto;
+    text-align:center;
+}
+#tblRifeSpec td {
+    padding-right:10px;
+    padding-bottom: 10px;
+}
+
+
+.rife-pics-cell {
+  padding-right: 15px;
+}

@@ -1,0 +1,69 @@
+body {
+  background-color:#000000;
+  color:#ffffff;
+  font-family: 'Playfair Display', serif;  
+}
+
+#mainContent {
+  width:35%;
+  font-size:1.3em
+}
+.center {
+  text-align:center;
+  margin: 0 auto;
+}
+
+.title {
+  font-size:22px;
+  color:#f2f2f2;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+.subTitle {
+  font-family: 'Arial', sans-serif;
+  font-size:15px;
+  color:#f2f2f2;
+  margin-top:5px;
+  padding-top:0;
+}
+.home {
+  font-family: 'Arial', sans-serif;
+  font-size:14px;
+  color:#A4B6B4;
+  margin-top:15px;
+  margin-bottom:30px;
+}
+
+a:link {
+  color:#A4B6B4;
+}
+a:hover {
+  color: #ffffff;
+}
+a:visited {
+  color:#A4B6B4;
+}
+
+#poshBtn {
+  background-color:#ffcbaa;
+  padding-left:5px;
+  margin-top:50px;
+  width: 250px;
+  height: 102px;
+}
+
+#fbBtn {
+  width: 250px;
+  height: 94px;
+  margin-top:25px;
+}
+
+.bottom-space {
+  height:100px;
+}
+
+#cpyright {
+  height:50px;
+  background-color:#2A2A2A;
+  border-top: solid 1px white;
+}

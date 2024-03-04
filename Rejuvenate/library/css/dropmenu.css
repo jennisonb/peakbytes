@@ -1,0 +1,85 @@
+#navmenu-h { position:relative; z-index:999; }
+#navmenu-h ul, #navmenu-h ul li, #navmenu-h ul ul{ margin: 0; padding: 0; border: 0 none;list-style: none;}
+#navmenu-h ul { width:940px; margin:0px auto; padding:4px 15px 0 15px ; height:42px; }
+
+#navmenu-h ul ul ul { margin-top:-1px;}
+#navmenu-h ul ul:after /*From IE 7 lack of compliance*/ {
+	clear: both; display: block; font: 1px/0px serif; content: "."; height: 0; visibility: hidden; }
+
+
+#navmenu-h ul li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+#navmenu-h ul ul {
+	width: 160px;
+	top: 42px;
+	left: 0;
+	display: none;
+	position: absolute;
+}
+#navmenu-h ul ul li {
+	width: 160px;
+	float: left;
+	display: block !important;
+	display: inline;
+}
+/* Root Menu */
+#navmenu-h ul li a {
+	border-left: none;
+	padding: 0 10px;
+	float: none !important;
+	float: left;
+	display: block;
+	font:12px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	height: auto !important;
+	height: 1%;
+	/*line-height:43px;*/
+}
+/* 2nd Menu */
+#navmenu-h ul li:hover li a
+#navmenu-h ul li.iehover li a { 
+	float: none;
+	_border-top:none;
+}
+#navmenu-h ul ul ul,
+#navmenu-h ul ul ul ul,
+#navmenu-h ul ul ul ul ul {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 159px;
+}
+
+
+/* NO EDIT PAST THIS LINE - Do Not Move - Must Come Before display:block for Gecko */
+
+#navmenu-h ul li:hover ul ul, ul#navmenu-v li:hover ul ul,
+#navmenu-h ul li:hover ul ul ul, ul#navmenu-v li:hover ul ul ul,
+#navmenu-h ul li:hover ul ul ul ul, ul#navmenu-v li:hover ul ul ul ul,
+#navmenu-h ul li.iehover ul ul, ul#navmenu-v li.iehover ul ul,
+#navmenu-h ul li.iehover ul ul ul, ul#navmenu-v li.iehover ul ul ul,
+#navmenu-h ul li.iehover ul ul ul ul, ul#navmenu-v li.iehover ul ul ul ul {
+	display: none;
+}
+#navmenu-h ul li:hover ul, ul#navmenu-v li:hover ul,
+#navmenu-h ul ul li:hover ul, ul#navmenu-v ul li:hover ul,
+#navmenu-h ul ul ul li:hover ul, ul#navmenu-v ul ul li:hover ul,
+#navmenu-h ul ul ul ul li:hover ul, ul#navmenu-v ul ul ul li:hover ul,
+#navmenu-h ul li.iehover ul, ul#navmenu-v li.iehover ul,
+#navmenu-h ul ul li.iehover ul, ul#navmenu-v ul li.iehover ul,
+#navmenu-h ul ul ul li.iehover ul, ul#navmenu-v ul ul li.iehover ul,
+#navmenu-h ul ul ul ul li.iehover ul, ul#navmenu-v ul ul ul li.iehover ul {
+	display: block;
+}
+/* #end -------------- */
+
+
+#navmenu-h ul li a { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size:14px;  text-decoration:none; padding:15px 24px 8px 0px; margin:0px 0px 0px 15px;  _margin:0px 0px 0px 5px; text-transform:uppercase; }
+#nav ul li a:hover { text-decoration:none; }
+
+#navmenu-h ul li ul li a { margin:0; display:block; _width:145px; padding:5px 0 5px 10px;  }
+#navmenu-h ul li ul li ul li {height:auto;  }
+* html #navmenu-h ul ul ul { margin-left:-3px; border:none !important; }
